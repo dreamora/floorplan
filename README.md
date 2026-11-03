@@ -163,6 +163,8 @@ Want to click around yourself? Open the [live demo](https://haydenschmitty.githu
 
 ## Install
 
+These instructions install the [dreamora/floorplan fork](https://github.com/dreamora/floorplan). The marketplace and plugin names remain `floorplan`.
+
 You need [Node.js 18+](https://nodejs.org) and either Claude Code or Codex. Floorplan runs on the plan you already have, with no API keys.
 
 ### Claude Code
@@ -170,7 +172,7 @@ You need [Node.js 18+](https://nodejs.org) and either Claude Code or Codex. Floo
 In the desktop app's Code tab or the CLI:
 
 ```bash
-claude plugin marketplace add haydenschmitty/floorplan
+claude plugin marketplace add dreamora/floorplan
 claude plugin install floorplan@floorplan
 ```
 
@@ -181,13 +183,13 @@ Start a new session and it's ready. Installing the Claude Code CLI is recommende
 Signed in with ChatGPT. No terminal needed:
 
 1. In the Codex app, open **Plugins** and choose **Add a marketplace**.
-2. For **Source**, enter `haydenschmitty/floorplan` and click **Add marketplace**.
+2. For **Source**, enter `dreamora/floorplan` and click **Add marketplace**.
 3. Find **Floorplan** and click **+** to install it.
 
 Or, from a terminal:
 
 ```bash
-codex plugin marketplace add haydenschmitty/floorplan
+codex plugin marketplace add dreamora/floorplan
 codex plugin add floorplan@floorplan
 ```
 
