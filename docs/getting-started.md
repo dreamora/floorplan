@@ -12,12 +12,12 @@ Floorplan works in **Claude Code** and in **Codex**. Making and using a map is t
 
 ## Install
 
-**In Codex**, open **Plugins → Add a marketplace**, enter `haydenschmitty/floorplan`, and install Floorplan. Details in [Floorplan in Codex](codex.md#install).
+**In Codex**, open **Plugins → Add a marketplace**, enter `dreamora/floorplan`, and install Floorplan. Details in [Floorplan in Codex](codex.md#install).
 
 **In Claude Code**, run these once, in any terminal:
 
 ```bash
-claude plugin marketplace add haydenschmitty/floorplan
+claude plugin marketplace add dreamora/floorplan
 claude plugin install floorplan@floorplan
 ```
 

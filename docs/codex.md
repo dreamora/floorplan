@@ -12,14 +12,14 @@ Floorplan works in [Codex](https://developers.openai.com/codex) the same way it 
 **In the Codex app** (no terminal needed):
 
 1. Open **Plugins** and choose **Add a marketplace**.
-2. For **Source**, enter `haydenschmitty/floorplan`. Leave **Git ref** empty, and click **Add marketplace**.
+2. For **Source**, enter `dreamora/floorplan`. Leave **Git ref** empty, and click **Add marketplace**.
 3. Find **Floorplan** in the list and click **+** to install it.
 4. Start a new chat.
 
 **From a terminal**, with the [Codex CLI](https://developers.openai.com/codex/cli):
 
 ```bash
-codex plugin marketplace add haydenschmitty/floorplan
+codex plugin marketplace add dreamora/floorplan
 codex plugin add floorplan@floorplan
 ```
 
